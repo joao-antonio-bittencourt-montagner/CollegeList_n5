@@ -1,0 +1,10 @@
+from Funções import forma
+print('-'*15)
+print('Menu matemático')
+print('-'*15)
+print('[1]Círculo')
+print('[2]Triângulo')
+print('[3]Retângulo')
+print('-'*15)
+n = int(input('Escolha uma opção para saber o perímetro e área:'))
+forma(n)
